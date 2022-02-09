@@ -24,7 +24,7 @@ Some of the feature that NoSQL provide over RDBMS are
 * Doesn’t require object-relational mapping and data normalization.
 * Uses json file so data set does not have to follow schema.
 * Do not require any sort of definition of the schema of the data.
-* Does not have to follow ACID properties.
+* Does not have to follow ACID properties.<br>
 **Simple API**
 * Offers easy to use interfaces for storage and querying data provided.
 * Low-level data manipulation & selection methods.
