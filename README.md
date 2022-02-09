@@ -72,5 +72,5 @@ A graph type database stores entities as well the relations amongst those entiti
 
 Document-Oriented NoSQL DB stores and retrieves data as a key value pair but the value part is stored as a document. The document is stored in JSON or XML formats. The value is understood by the DB and can be queried.The document type is mostly used for CMS systems, blogging platforms, real-time analytics & e-commerce applications. It should not use for complex transactions which require multiple operations or queries against varying aggregate structures.Some examples are MongoDB
 <br>
-**Document-Oriented database and RDBMS **
+**Document-Oriented database and RDBMS**
 ![Document-Oriented database](http://4.bp.blogspot.com/-FHrKTEWu8Hg/UR0cIfJjKpI/AAAAAAAAAVU/O-oSlK2pXAw/s1600/Untitled.png)
