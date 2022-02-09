@@ -1,6 +1,6 @@
 # technical_paper_NoSQL
 
-## NoSql Database
+## NoSQL Database
 
 Nosql database is a non relational database used for storing data and relational values.It does not require a fix schema. It avoids joins and easy to sacale.
 Nosql genarally also called no- SQL . It is genrally faster than our Relational databases.The major purpose of using NoSQL is to deal with large set of data.Traditional RDBMS uses SQL syntax to store and retrieve data for further insights. Instead, a NoSQL database system encompasses a wide range of database technologies that can store structured, semi-structured, unstructured and polymorphic data. 
@@ -33,11 +33,33 @@ Some of the feature that NoSQL provide over RDBMS are
 ## Types of NoSQL Database 
 Types of NoSQL databases and the name of the databases system that falls in that category are:<br>
 
-  * MongoDB falls in the category of NoSQL document based database.
+  * Column-oriented Graph : Table Casandra.
   * Key value store: Memcached, Redis, Coherence
   * Tabular: Hbase, Big Table, Accumulo
   * Document based: MongoDB, CouchDB, Cloudant
-    
+ ## Key Value store
+ 
+ In key value store NoSQL data is stored in key/value pairs. It is designed in such a way to handle lots of data and heavy load.Key-value pair storage databases store data as a hash table where each key is unique, and the value can be a JSON, BLOB(Binary Large Objects), string, etc.<br>
+
+![Key Value Store](https://upload.wikimedia.org/wikipedia/commons/5/5b/KeyValue.PNG)<br>
+
+Some of the example of Key Value Store NoSQL are Redis, Coherence<br>
+**Advantages of key value store database**
+* NoSQL database is used as a collection, dictionaries, associative arrays.
+* Store schema-less data.
+* Work best for shopping cart contents.
+## Column-oriented Graph
+Column-oriented databases work on columns. Every column is treated separately. Values of single column databases are stored contiguously.<br>
+**Advantagges of columnn-oriented graph databases
+* High performance aggregation.
+* Efficient for data warehouses.
+* One column family can have vaiable number of columns
+* Ver sparse, most value have null value
+* Some examples are casandra.<br>
+![Column-oriented Graph](https://www.guru99.com/images/1/101818_0537_NoSQLTutori7.png)
+## Graph based database
+
+
 
 
 
