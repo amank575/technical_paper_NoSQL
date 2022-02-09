@@ -33,10 +33,10 @@ Some of the feature that NoSQL provide over RDBMS are
 ## Types of NoSQL Database 
 Types of NoSQL databases and the name of the databases system that falls in that category are:<br>
 
-    *MongoDB falls in the category of NoSQL document based database.<br>
-    *Key value store: Memcached, Redis, Coherence<br>
-    *Tabular: Hbase, Big Table, Accumulo<br>
-    *Document based: MongoDB, CouchDB, Cloudant<br>
+    * MongoDB falls in the category of NoSQL document based database.
+    * Key value store: Memcached, Redis, Coherence
+    * Tabular: Hbase, Big Table, Accumulo
+    * Document based: MongoDB, CouchDB, Cloudant
     
 
 
