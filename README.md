@@ -31,31 +31,32 @@ Some of the feature that NoSQL provide over RDBMS are
 * Mostly used no standard based NoSQL query language.
 * Text-based protocols mostly used with HTTP REST with JSON.<br>
 ## Types of NoSQL Database 
-Types of NoSQL databases and the name of the databases system that falls in that category are:<br>
+Types of NoSQL databases and the name of the databases system that falls in that category are:
 
   * Column-oriented Graph : Table Casandra.
   * Key value store: Memcached, Redis, Coherence
   * Tabular: Hbase, Big Table, Accumulo
   * Document based: MongoDB, CouchDB, Cloudant
+  
  ## Key Value store
  
- In key value store NoSQL data is stored in key/value pairs. It is designed in such a way to handle lots of data and heavy load.Key-value pair storage databases store data as a hash table where each key is unique, and the value can be a JSON, BLOB(Binary Large Objects), string, etc.<br>
-
-![Key Value Store](https://upload.wikimedia.org/wikipedia/commons/5/5b/KeyValue.PNG)<br>
-
-Some of the example of Key Value Store NoSQL are Redis, Coherence<br>
+ In key value store NoSQL data is stored in key/value pairs. It is designed in such a way to handle lots of data and heavy load.Key-value pair storage databases store data as a hash table where each key is unique, and the value can be a JSON, BLOB(Binary Large Objects), string, etc.
+<br></br>
 **Advantages of key value store database**
 * NoSQL database is used as a collection, dictionaries, associative arrays.
 * Store schema-less data.
 * Work best for shopping cart contents.
+<br></br>
+ <span style="display:block;text-align:center">![Key Value Store](https://upload.wikimedia.org/wikipedia/commons/5/5b/KeyValue.PNG)</span>
 ## Column-oriented Graph
-Column-oriented databases work on columns. Every column is treated separately. Values of single column databases are stored contiguously.<br>
+Column-oriented databases work on columns. Every column is treated separately. Values of single column databases are stored contiguously.
+<br></br>
 **Advantagges of columnn-oriented graph databases**
 * High performance aggregation.
 * Efficient for data warehouses.
 * One column family can have vaiable number of columns
 * Ver sparse, most value have null value
-* Some examples are casandra.<br>
+* Some examples are casandra.<br></br>
 ![Column-oriented Graph](https://www.guru99.com/images/1/101818_0537_NoSQLTutori7.png)
 ## Graph based database
 
@@ -67,10 +68,18 @@ A graph type database stores entities as well the relations amongst those entiti
 * Based on Graph theory.
 * Basically used for social sites.
 * Some examples are FlockDB.<br>
-![Graph based database](https://dist.neo4j.com/wp-content/uploads/20180711200201/twitter-users-graph-database-model-peter-emil-johan.png?_gl=1*11b4k5u*_ga*MTEyNTkyNTUwNy4xNjQ0NDA3NzI1*_ga_DL38Q8KGQC*MTY0NDQwNzcyNC4xLjAuMTY0NDQwNzcyNC4w&_ga=2.20634488.1517951860.1644407729-1125925507.1644407725)
+![Graph based database](https://database.guide/wp-content/uploads/2016/06/graph_database_relationship_example.png)<br>
 ## Document-Oriented database
 
 Document-Oriented NoSQL DB stores and retrieves data as a key value pair but the value part is stored as a document. The document is stored in JSON or XML formats. The value is understood by the DB and can be queried.The document type is mostly used for CMS systems, blogging platforms, real-time analytics & e-commerce applications. It should not use for complex transactions which require multiple operations or queries against varying aggregate structures.Some examples are MongoDB
 <br>
 **Document-Oriented database and RDBMS**
-![Document-Oriented database](http://4.bp.blogspot.com/-FHrKTEWu8Hg/UR0cIfJjKpI/AAAAAAAAAVU/O-oSlK2pXAw/s1600/Untitled.png)
+<br></br>
+![Document-Oriented database](https://phoenixnap.com/kb/wp-content/uploads/2021/05/document-database-illustration.png)<br>
+## Reference
+https://www.geeksforgeeks.org/introduction-to-nosql/<br>
+https://www.mongodb.com/nosql-explained<br>
+https://www.guru99.com/nosql-tutorial<br>
+https://database.guide/wp-content/uploads/2016/06/graph_database_relationship_example
+
+
