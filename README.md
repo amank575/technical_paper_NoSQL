@@ -50,7 +50,7 @@ Some of the example of Key Value Store NoSQL are Redis, Coherence<br>
 * Work best for shopping cart contents.
 ## Column-oriented Graph
 Column-oriented databases work on columns. Every column is treated separately. Values of single column databases are stored contiguously.<br>
-**Advantagges of columnn-oriented graph databases
+**Advantagges of columnn-oriented graph databases**
 * High performance aggregation.
 * Efficient for data warehouses.
 * One column family can have vaiable number of columns
