@@ -60,7 +60,7 @@ Column-oriented databases work on columns. Every column is treated separately. V
 ![Column-oriented Graph](https://www.guru99.com/images/1/101818_0537_NoSQLTutori7.png)
 ## Graph based database
 
-A graph type database stores entities as well the relations amongst those entities. The entity is stored as a node with the relationship as edges. An edge gives a relationship between nodes. Every node and edge has a unique identifier.<br>
+A graph type database stores entities as well the relations amongst those entities. The entity is stored as a node with the relationship as edges. An edge gives a relationship between nodes. Every node and edge has a unique identifier.<br></br>
 **Advantages of Graph based database**
 * Focus on modelling of the data.
 * Scale to the complexity of the data.
@@ -72,7 +72,7 @@ A graph type database stores entities as well the relations amongst those entiti
 ## Document-Oriented database
 
 Document-Oriented NoSQL DB stores and retrieves data as a key value pair but the value part is stored as a document. The document is stored in JSON or XML formats. The value is understood by the DB and can be queried.The document type is mostly used for CMS systems, blogging platforms, real-time analytics & e-commerce applications. It should not use for complex transactions which require multiple operations or queries against varying aggregate structures.Some examples are MongoDB
-<br>
+<br></br>
 **Document-Oriented database and RDBMS**
 <br></br>
 ![Document-Oriented database](https://phoenixnap.com/kb/wp-content/uploads/2021/05/document-database-illustration.png)<br>
